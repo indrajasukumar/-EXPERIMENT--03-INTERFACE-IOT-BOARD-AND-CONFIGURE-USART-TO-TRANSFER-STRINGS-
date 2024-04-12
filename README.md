@@ -4,7 +4,7 @@
 ###  ROLL NO :212222043003
 ###  DEPARTMENT: CSE
 
-# EXPERIMENT--04-INTERFACING IOT DEVELOPMENT BOARD AND CONFIGURE USART FOR TRANSFERRING STRINGS 
+# EXPERIMENT--03-INTERFACING IOT DEVELOPMENT BOARD AND CONFIGURE USART FOR TRANSFERRING STRINGS 
 ## Aim: To Interface iot development board for configuring the the usart and transfer strings though it 
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool, Serial port utility tool 
 ## Theory 
@@ -61,7 +61,7 @@ MX_GPIO_Init();
 MX_USART2_UART_Init();
 while (1)
 {
-printf("kavisree\n");
+printf("indraja\n");
 HAL_Delay(500);
 }
 
