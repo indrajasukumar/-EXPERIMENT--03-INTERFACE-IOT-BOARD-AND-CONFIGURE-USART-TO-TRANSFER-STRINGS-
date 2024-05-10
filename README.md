@@ -41,7 +41,6 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 
 
 ## STM 32 CUBE PROGRAM :
-```C
 #include "main.h" #if defined (ICCARM) || defined (__ARMCC_VERSION)
 #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE f)
 #elif defined(GNUC)
@@ -61,7 +60,8 @@ MX_GPIO_Init();
 MX_USART2_UART_Init();
 while (1)
 {
-printf("indraja\n");
+printf("NAME: INDRAJA S\n");
+printf("DEPT: CSE\n");
 HAL_Delay(500);
 }
 
@@ -156,7 +156,6 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 }
 #endif
-```
 
 ## Output screen shots of Serial port utility   :
  ![1](https://github.com/indrajasukumar/-EXPERIMENT--03-INTERFACE-IOT-BOARD-AND-CONFIGURE-USART-TO-TRANSFER-STRINGS-/assets/145115195/4768360d-5f1c-43d6-8dd4-85d19d2a9625)
